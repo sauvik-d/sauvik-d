@@ -1,6 +1,6 @@
 # I'm Sauvik
 [![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d)](https://github.com/sauvik-d/github-readme-stats)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&langs_count=8)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 
 Here are some ideas to get you started:
 # 😶‍🌫️ Who Am I ...
