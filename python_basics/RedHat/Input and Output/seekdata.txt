@@ -1,0 +1,2 @@
+Hi this a program.
+It is shown for os module use in python.

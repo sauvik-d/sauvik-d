@@ -1,0 +1,482 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil Cambria Math;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.22621}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs24\lang9 Chapter 10.  Regular Expressions\par
+Regular Expressions\par
+Summary\par
+Abstract\par
+\par
+Goal\tab\par
+Use pattern-matching to find, modify, or split strings.\par
+\par
+Objectives\tab\par
+Use the re module to perform regular expression pattern matching.\par
+\par
+Understand and use character classes and quantifiers when building a regular expression.\par
+\par
+Use groups to apply quantifiers to a group within an expression.\par
+\par
+Use groups to capture and manipulate the text that a regular expression matches.\par
+\par
+Understand and use the various functions within the re module to operate on regular expressions.\par
+\par
+Sections\tab\par
+Regular Expressions\par
+\par
+Regular Expressions\par
+Objectives\par
+Use the re module to perform regular expression pattern matching.\par
+\par
+Understand and use character classes and quantifiers when building a regular expression.\par
+\par
+Use groups to apply quantifiers to a group within an expression.\par
+\par
+Use groups to capture and manipulate the text that a regular expression matches.\par
+\par
+Understand and use the various functions within the re module to operate on regular expressions.\par
+\par
+Introduction\par
+Regular expressions are a highly specialized language used for pattern matching.\par
+\par
+By using this language, you can specify the rules for the set of possible strings that you want to match, modify, or split.\par
+\par
+The re module provides regular expression matching operations within the Python language.\par
+\par
+The functions in the re module let you check if a particular string matches a given regular expression.\par
+\par
+The following example demonstrates the use of the re.search() function.\par
+\par
+$ python3\par
+Python 3.9.10 (main, Feb 9 2022, 00:00:00)\par
+[GCC 11.2.1 20220127 (Red Hat 11.2.1-9)] on linux\par
+Type "help", "copyright", "credits" or "license" for more information.\par
+>>> import re\par
+>>> re.search("z", "abcdefg")  # No Match since "z" is not found in "abcdefg"\par
+>>> re.search("c", "abcdefg")  # Match Found\par
+<re.Match object; span=(2, 3), match='c'>\par
+>>> exit()\par
+$\par
+The re.search() function takes a regex pattern as its first argument, and the string to search as the second argument.\par
+\par
+It scans through the string, from left to right, looking for the first location where the regular expression pattern produces a match.\par
+\par
+If a match is found, then it returns a corresponding match object.\par
+\par
+If no match is found, then it returns None.\par
+\par
+The following application can be used to provide both a regular expression and a string to match against it.\par
+\par
+regex_testing.py\par
+\par
+#!/usr/bin/env python3\par
+import re\par
+\par
+\par
+def getinput(regex):\par
+    prompt = "Enter a RegEx or (<enter> to reuse previous):"\par
+    prevregex = regex\par
+    regex = input(prompt)\par
+    if not regex:\par
+        regex = prevregex\par
+    elif regex == "quit":\par
+        return tuple()\par
+    line = input("Enter a string to search: ")\par
+    if line == "quit":\par
+        return tuple()\par
+    return (regex, line)\par
+\par
+\par
+def main():\par
+    previous_regex = ""\par
+    print("Enter 'quit' at any time to quit the program")\par
+    while True:\par
+        the_tuple = getinput(previous_regex)\par
+        if the_tuple:\par
+            regex, text = the_tuple\par
+            x = re.search(regex, text)\par
+            if x:\par
+                print(x, "\\n")\par
+            else:\par
+                print("No Match found\\n")\par
+            previous_regex = regex\par
+        else:\par
+            break\par
+\par
+\par
+if __name__ == "__main__":\par
+    main()\par
+Simple Character Matches\par
+Regular expressions can contain both special and ordinary characters.\par
+\par
+Most ordinary characters, like A, a, or 8, are the simplest regular expressions; they simply match themselves, and they are also known as literals.\par
+\par
+You can concatenate literals, to compose patterns.\par
+\par
+The output of regex_testing.py is shown below.\par
+\par
+It searches for strings that contain the regular expression: the.\par
+\par
+$ python3 regex_testing.py\par
+Enter 'quit' at any time to quit the program\par
+Enter a RegEx or (<enter> to reuse previous):the\par
+Enter a string to search: the\par
+<re.Match object; span=(0, 3), match='the'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: themselves\par
+<re.Match object; span=(0, 3), match='the'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: breathe\par
+<re.Match object; span=(4, 7), match='the'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: This line contains the words the and breathe\par
+<re.Match object; span=(19, 22), match='the'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):quit\par
+$\par
+The span is a tuple of both the start and end positions of the match.\par
+\par
+Special Characters\par
+Special characters, also called metacharacters, are characters that either stand for classes of ordinary characters, or affect how the regular expressions around them are interpreted.\par
+\par
+Table 10.1. Regular Expression Metacharacters\par
+\par
+\\\tab .\tab ^\tab $\tab ?\tab +\tab *\tab\{\tab\}\tab [\tab ]\tab (\tab )\tab |\par
+\par
+If any of the preceding characters are to be searched for, then they need to be preceded with a \\ to escape their special meaning.\par
+\par
+For example, if you want to search for strings that contain the consecutive characters +*, then you can define the following regular expression: \\+\\*.\par
+\par
+$ python3 regex_testing.py\par
+Enter 'quit' at any time to quit the program\par
+Enter a RegEx or (<enter> to reuse previous):\\+\\* \par
+Enter a string to search: abc+\par
+No Match found\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: abc+abc*\par
+No Match found\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: abc+*abc\par
+<re.Match object; span=(3, 5), match='+*'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):quit\par
+$\par
+Character Classes\par
+A character class is a set of characters enclosed within square brackets [].\par
+\par
+It specifies the characters that will successfully match a single character from a given input string.\par
+\par
+Take for example the simple character class [drm]ice.\par
+\par
+The above will match strings that contain dice, mice, or rice.\par
+\par
+It would not match a string containing vice.\par
+\par
+A ^ (caret) as the first character inside a character class negates the class, causing it to match all characters except those within the square brackets.\par
+\par
+Take for example the character class [^drm]ice.\par
+\par
+The above will no longer match strings that contain dice, mice, or rice.\par
+\par
+It will now match a string containing vice, and helloicegoodbye.\par
+\par
+Ranges of characters can be specified within a character class through the inclusion of a - (minus sign) between two characters.\par
+\par
+Take for example the character class [0123456789].\par
+\par
+It can be simplified using a range and rewritten as [0-9].\par
+\par
+Any digit or letter can be represented as a range of [0-9a-zA-Z].\par
+\par
+Some special sequences beginning with \\ represent predefined character classes.\par
+\par
+Table 10.2. Character Classes for Regular Expressions\par
+\par
+Character Class\tab Meaning\par
+.\tab Any character.\par
+\\d\tab A Unicode digit. More than the standard digits of [0-9] or [0123456789].\par
+\\D\tab A non Unicode digit. More than the standard of [^0-9] or [^0123456789].\par
+\\s\tab A white space character. Equivalent to [ \\t\\n\\r\\f\\v] and many other white space \tab characters in Unicode.\par
+\\S\tab A non-white-space character. Equivalent to [^ \\t\\n\\r\\f\\v] or [^\\s].\par
+\\w\tab A word character. Equivalent to [a-zA-Z0-9_].\par
+\\W\tab A non-word character. Equivalent to [^a-zA-Z0-9_] or [^\\w].\par
+\par
+The following example demonstrates searching for strings that contain two consecutive digits, followed by a white space character, followed by two consecutive digits.\par
+\par
+$ python3 regex_testing.py\par
+\par
+Enter 'quit' at any time to quit the program\par
+Enter a RegEx or (<enter> to reuse previous):\\d\\d\\s\\d\\d\par
+Enter a string to search: 01234 56789\par
+<re.Match object; span=(3, 8), match='34 56'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: \f1\u-10187?\u-8223?\u-10187?\u-8223?\f0  \f1\u-10187?\u-8223?\u-10187?\u-8223?\f0\par
+<re.Match object; span=(0, 5), match='\f1\u-10187?\u-8223?\u-10187?\u-8223?\f0  \f1\u-10187?\u-8223?\u-10187?\u-8223?\f0 '>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):quit\par
+$\par
+The preceding example includes the Unicode character \f1\u-10187?\u-8223?\f0  (\\U0001D7E1 ~ MATHEMATICAL DOUBLE-STRUCK DIGIT NINE).\par
+\par
+Quantifiers\par
+Quantifiers specify how often a regular expression must match.\par
+\par
+Table 10.3. Regular Expression Quantifiers\par
+\par
+Quantifier\tab Occurrences\par
+*\tab Zero or more\par
++\tab One or more\par
+?\tab Zero or one\par
+\{m,n\}\tab Minimum m and maximum n\par
+\{m,\}\tab Minimum m and maximum unbounded\par
+\{,n\}\tab Minimum unbounded and maximum n\par
+\{m\}\tab Exactly m\par
+\par
+The following regular expression matches any string with three digits, followed by one or more white spaces, followed by zero or more characters: \\d\{3\}\\s+.*\par
+\par
+Greedy and Non-Greedy Quantifiers\par
+The quantifiers as listed on the previous section are greedy. That is, when there is a choice, the longest match will be chosen.\par
+\par
+For example, given the following pattern _.*_, a match will occur if the target string is preceded and followed by an underscore character.\par
+\par
+If the string to be searched using the preceding regular expression is This_is_the_way_to_do_it, then the following portions of it fit the regular expression pattern as the string is scanned left to right.\par
+\par
+"_is_"\par
+"_is_the_"\par
+"_is_the_way_"\par
+"_is_the_way_to_"\par
+"_is_the_way_to_do_"\par
+Because a quantifier is greedy, the longest match will be chosen.\par
+\par
+Placing a ? after a quantifier makes that quantifier a non-greedy quantifier, and it will match the shortest option.\par
+\par
+The following example demonstrates the use of greedy and non-greedy quantifiers.\par
+\par
+$ python3 regex_testing.py\par
+Enter 'quit' at any time to quit the program\par
+Enter a RegEx or (<enter> to reuse previous):_.*_\par
+Enter a string to search: This_is_the_way_to_do_it\par
+<re.Match object; span=(4, 22), match='_is_the_way_to_do_'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: This __ is also a match\par
+<re.Match object; span=(5, 7), match='__'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):_.*?_\par
+Enter a string to search: This_is_the_way_to_do_it\par
+<re.Match object; span=(4, 8), match='_is_'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):quit\par
+$\par
+Alternatives\par
+The | character can be used as an or operator to specify alternatives.\par
+\par
+For example, if you wished to search for "Anne", "Chris", or "Robert", you could code as follows.\par
+\par
+$ python3 regex_testing.py\par
+Enter 'quit' at any time to quit the program\par
+Enter a RegEx or (<enter> to reuse previous):Anne|Chris|Robert\par
+Enter a string to search: His name is Robert\par
+<re.Match object; span=(12, 18), match='Robert'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: Anne is her name\par
+<re.Match object; span=(0, 4), match='Anne'>\par
+\par
+Enter a RegEx or (<enter> to reuse previous):quit\par
+$\par
+Matching at Beginning and/or End\par
+The ^ character can be used at the beginning of a regular expression to search for strings that start with the regular expression.\par
+\par
+The $ character can be used as the last character of a regular expression to search for string that end with the regular expression.\par
+\par
+Using both the ^ at the beginning and the $ at the end of a regular expression searches for strings that completely match the expression from start and end.\par
+\par
+Grouping\par
+Groups are marked by the ( and ) metacharacters, and they group together the expressions contained inside them.\par
+\par
+This permits quantifiers to be specified on the group.\par
+\par
+For example, (ab)* will match zero or more repetitions of ab.\par
+\par
+The following regular expression uses a group to specify the optional part of a zip code.\par
+\par
+\\d\{5\}(-\\d\{4\})?\par
+The grouping permits the ? quantifier to apply to the entire group of characters of the dash and 4 digits (-\\d\{4\}).\par
+\par
+Groups can be nested and also capture the starting and ending index of the text that they match.\par
+\par
+Each group matched can be retrieved by passing an argument to the group(), start(), end(), and span() methods of the resulting match object.\par
+\par
+Groups are numbered starting with 0.\par
+\par
+Group 0 is always present and represents the whole regular expression.\par
+\par
+Subgroups are numbered from left to right, from 1 upward.\par
+\par
+The groups() method can be used to return a tuple containing the strings for all the subgroups.\par
+\par
+The returned tuple is from 1 up to however many there are.\par
+\par
+The example on the following page is a rewrite of the previous application.\par
+\par
+It has been modified to print more information about any and all groups defined within the regular expression.\par
+\par
+group_testing.py\par
+\par
+#!/usr/bin/env python3\par
+import re\par
+from regex_testing import getinput\par
+\par
+\par
+def print_details(m):\par
+    headers = ("#", "Start", "End", "Span", "Text")\par
+    fmt = "\{\} \{:^7\}\{:^7\}\{:^10\} \{\}"\par
+    print(fmt.format(*headers))\par
+    # Group 0\par
+    print(fmt.format(0, m.start(0), m.end(0), str(m.span(0)), m.group(0)))\par
+    # Group 1 to the Number of groups\par
+    # Note use of value of 1 as starting enumerate value\par
+    for idx, a_group in enumerate(m.groups(), 1):\par
+        print(fmt.format(idx, m.start(idx), m.end(idx),\par
+                         str(m.span(idx)), a_group))\par
+\par
+\par
+def main():\par
+    previous_regex = ""\par
+    print("Enter 'quit' at any time to quit the program")\par
+    while True:\par
+        the_tuple = getinput(previous_regex)\par
+        if the_tuple:\par
+            regex, text = the_tuple\par
+            x = re.search(regex, text)\par
+            if x:\par
+                print_details(x)\par
+                print()\par
+            else:\par
+                print("No Match found\\n")\par
+            previous_regex = regex\par
+        else:\par
+            break\par
+\par
+\par
+if __name__ == "__main__":\par
+    main()\par
+Several examples of using groups are shown in the following output.\par
+\par
+$ python3 group_testing.py\par
+Enter 'quit' at any time to quit the program\par
+Enter a RegEx or (<enter> to reuse previous):((.*) (.*)) (.*)\par
+Enter a string to search: *This is a string of text*\par
+#  Start   End     Span    Text\par
+0    0     24    (0, 24)   This is a string of text\par
+1    0     19    (0, 19)   This is a string of\par
+2    0     16    (0, 16)   This is a string\par
+3   17     19    (17, 19)  of\par
+4   20     24    (20, 24)  text\par
+\par
+Enter a RegEx or (<enter> to reuse previous):www\\.(.+)\\.(com|edu|org)\par
+Enter a string to search: {{\field{\*\fldinst{HYPERLINK www.somewhere.com }}{\fldrslt{www.somewhere.com\ul0\cf0}}}}\f0\fs24\par
+#  Start   End     Span    Text\par
+0    0     17    (0, 17)   {{\field{\*\fldinst{HYPERLINK www.somewhere.com }}{\fldrslt{www.somewhere.com\ul0\cf0}}}}\f0\fs24\par
+1    4     13    (4, 13)   somewhere\par
+2   14     17    (14, 17)  com\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: {{\field{\*\fldinst{HYPERLINK www.someothersite.org }}{\fldrslt{www.someothersite.org\ul0\cf0}}}}\f0\fs24\par
+#  Start   End     Span    Text\par
+0    1     22    (1, 22)   {{\field{\*\fldinst{HYPERLINK www.someothersite.org }}{\fldrslt{www.someothersite.org\ul0\cf0}}}}\f0\fs24\par
+1    5     18    (5, 18)   someothersite\par
+2   19     22    (19, 22)  org\par
+\par
+Enter a RegEx or (<enter> to reuse previous):\par
+Enter a string to search: The website, {{\field{\*\fldinst{HYPERLINK www.redhat.com }}{\fldrslt{www.redhat.com\ul0\cf0}}}}\f0\fs24 , contains all our open-source products\par
+#  Start   End     Span    Text\par
+0   13     27    (13, 27)  {{\field{\*\fldinst{HYPERLINK www.redhat.com }}{\fldrslt{www.redhat.com\ul0\cf0}}}}\f0\fs24\par
+1   17     23    (17, 23)  redhat\par
+2   24     27    (24, 27)  com\par
+\par
+Enter a RegEx or (<enter> to reuse previous):quit\par
+$\par
+Additional Functions\par
+The re module contains several other functions operate on regular expressions.\par
+\par
+Function\tab Action\par
+re.match()\tab Determines if the match is found at the beginning of the string.\par
+re.fullmatch()\tab Requires the complete string to match the regular expression pattern.\par
+re.findall()\tab Finds all substrings that generate a match (as opposed to only the first), and returns them as a list.\par
+re.split()\tab Splits a string based on a regular expression and returns a list of strings as the result.\par
+re.sub()\tab Makes substitutions within a given string based on a regular expression.\par
+re.compile()\tab Compiles a regular expression string to provide efficiency on multiple usage.\par
+The following example demonstrates the use of the re.findall() and re.sub() functions.\par
+\par
+findall_sub.py\par
+\par
+#!/usr/bin/env python3\par
+import re\par
+\par
+\par
+def main():\par
+    text = "The numbers 123 and 57 are odd while 948 and 2800 are even"\par
+    numbers = re.findall(r"\\d+", text)\par
+    print(numbers)\par
+\par
+    result = re.sub(r"(\\d+)", "#{{\field{\*\fldinst{HYPERLINK "\\\\\\\\1"}}{\fldrslt{\\\\1\ul0\cf0}}}}\f0\fs24 ", text)\par
+    print(result)\par
+\par
+    result = re.sub(r"(\\d+)", r"#\\1", text)\par
+    print(result)\par
+\par
+\par
+if __name__ == "__main__":\par
+    main()\par
+The #{{\field{\*\fldinst{HYPERLINK "\\\\\\\\1"}}{\fldrslt{\\\\1\ul0\cf0}}}}\f0\fs24  used as the 2nd argument to re.sub() acts as a back-reference to the group #1, matched in the first argument.\par
+\par
+The double backslash is required since Python treats \\1 as a special character.\par
+\par
+The r"#\\1" defined as a raw string, prevents the need to escape the \\ character.\par
+\par
+The output of the above program is shown below.\par
+\par
+$ python3 findall_sub.py\par
+['123', '57', '948', '2800']\par
+The numbers #123 and #57 are odd while #948 and #2800 are even\par
+The numbers #123 and #57 are odd while #948 and #2800 are even\par
+$\par
+Flags\par
+Many of the functions in the re module accept an optional flags argument, used to enable various special features and syntax variations.\par
+\par
+Flags are available in the re module under two names, a long and a short name.\par
+\par
+Multiple flags can be specified by bitwise OR-ing them.\par
+\par
+For example, re.I | re.M sets both the I and M flags.\par
+\par
+Table 10.4. Flags available in the re Module\par
+\par
+Flag Name\tab Short Name\tab Meaning\par
+re.ASCII\tab re.A\tab Makes several escapes such as \\w, \\b,\\s, and \\d match only on ASCII characters with the respective property.\par
+re.DOTALL\tab re.S\tab Make . match any character, including newlines.\par
+re.IGNORECASE\tab re.I\tab Do case-insensitive matches.\par
+re.LOCALE\tab re.L\tab Do a locale-aware match.\par
+re.MULTILINE\tab re.M\tab Multi-line matching, affecting ^ and $.\par
+re.VERBOSE\tab re.X\tab Enable verbose REs, which can be organized more cleanly and understandably.\par
+\par
+The following example demonstrates the use of the re.IGNORECASE flag.\par
+\par
+$ python3\par
+Python 3.9.10 (main, Feb 9 2022, 00:00:00)\par
+[GCC 11.2.1 20220127 (Red Hat 11.2.1-9)] on linux\par
+Type "help", "copyright", "credits" or "license" for more information.\par
+>>> import re\par
+>>> x = re.findall("hello", "Hello hello HeLLo heLLO", flags=re.IGNORECASE)\par
+>>> print(x)\par
+['Hello', 'hello', 'HeLLo', 'heLLO']\par
+>>> quit()\par
+$\par
+}
+ 

@@ -1,0 +1,16 @@
+# to make string upper case and lower case
+<string>.upper()
+<string>.lower()
+# to make string titles upper case
+<string>.title()
+# checking it is lower or not
+<string>.islower()
+isalpha() to check if a string contains only characters and is not empty
+isalnum() to check if a string contains characters or digits and is not empty
+isdecimal() to check if a string contains digits and is not empty
+startswith() to check if the string starts with a specific substring
+endswith() to check if the string ends with a specific substring
+replace() to replace a part of a string
+split() to trim the whitespace from a string
+join() to append new letters to a string
+find() to find the position of a substring
