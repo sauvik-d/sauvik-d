@@ -1,8 +1,7 @@
 # I'm Sauvik
-[![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d)](https://github.com/sauvik-d/github-readme-stats)
+[![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d)](https://github.com/sauvik-d/github-readme-stats)<br/>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 
-Here are some ideas to get you started:
 # 😶‍🌫️ Who Am I ...
 I'm Sauvik Dutta, B.Sc 2nd year Computer Science Honours student in Ramakrishna Mission Vivekananda Centenary College
 # 🔭 I’m currently working on ...
