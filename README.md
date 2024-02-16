@@ -1,14 +1,14 @@
 # I'm Sauvik
-[![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d)](https://github.com/sauvik-d/github-readme-stats)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&langs_count=8)
+[![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d)](https://github.com/sauvik-d/github-readme-stats)<br/>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 
-Here are some ideas to get you started:
 # 😶‍🌫️ Who Am I ...
 I'm Sauvik Dutta, B.Sc 2nd year Computer Science Honours student in Ramakrishna Mission Vivekananda Centenary College
 # 🔭 I’m currently working on ...
-# 🌱 I’m currently learning ...
-- Data Structures
-- Algorithms
+# 🌱 I’m currently learning
+- Data Structures and Algorithms
+- Database Management
+- Software Engineering
 # 👯 I’m looking to collaborate on ...
 - Anything... TCS, Machine Learning, Data Science, Cryptography whatever I can get a chance
 # 🤔 I’m looking for help with ...
