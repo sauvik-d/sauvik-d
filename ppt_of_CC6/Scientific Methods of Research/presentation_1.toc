@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Multi-programming Operating System}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Description}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Pros and Cons}{8}{0}{2}
+\beamer@sectionintoc {3}{Multitasking Operating System}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Description}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Pros and Cons}{13}{0}{3}
+\beamer@sectionintoc {4}{Comparison between Multiprogramming and Multitasking}{15}{0}{4}
