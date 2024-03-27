@@ -1,5 +1,5 @@
 # I'm Sauvik
-
+[![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d)](https://github.com/sauvik-d/github-readme-stats)<br/>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 
 # 😶‍🌫️ Who Am I ...
