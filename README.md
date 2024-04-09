@@ -1,5 +1,5 @@
 # I'm Sauvik
-
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sauvik-d&show_icons=true&locale=en" alt="sauvik-d" /></p>
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 
