@@ -5,11 +5,11 @@
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 </div>
 
-Total View Count:
+## Total View Count:
 
 <img src="https://camo.githubusercontent.com/5f32e1c744a4a491979a85097b844869d923ae7eca62f23e90dff37ff063c6b6/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f76616e73686b61706f6f722f636f756e742e737667" data-canonical-src="https://profile-counter.glitch.me/sauvik-d/count.svg" style="max-width: 100%;">
 
-Languages and Tools:
+## Languages and Tools:
 
 <div style="display: flex; flex-direction: row;">
 
