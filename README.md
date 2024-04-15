@@ -1,10 +1,19 @@
-# I'm Sauvik
+# Hi I'm Sauvik
+
+## 😶‍🌫️ Who Am I ...
+I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College
 <div style="display: flex; flex-direction: row;">
   
   ![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d&show_icons=true)
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
+  
 </div>
 
+## Catch Me on:
+
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/sauvik-d)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/)
+<img alt="ViewCount" src="https://views.whatilearened.today/views/github/sauvik-d/onimur.svg" />
 ## Total View Count:
 
 <img src="https://camo.githubusercontent.com/5f32e1c744a4a491979a85097b844869d923ae7eca62f23e90dff37ff063c6b6/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f76616e73686b61706f6f722f636f756e742e737667" data-canonical-src="https://profile-counter.glitch.me/sauvik-d/count.svg" style="max-width: 100%;">
@@ -23,37 +32,23 @@
 
   <img width="5%" src="https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg" style="max-width: 100%;">
 
-  <img width="4%" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" style="max-width: 100%;">
+  <!--<img width="4%" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" style="max-width: 100%;">-->
   
   <img width="10%" src="https://camo.githubusercontent.com/842373051212a9c9c61fe72b9d636b2e7ed06f89120e8322ea5e67d01857cff8/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6d7973716c2f6d7973716c2d617232312e737667" data-canonical-src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" style="max-width: 100%;">
-  
-  
-  
-  
-
-  
-  
-  
+    
 </div>
 
-
-# 😶‍🌫️ Who Am I ...
-I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College
-# 🔭 I’m currently working on ...
-# 🌱 I’m currently learning
+## 🌱 I’m currently learning
 - Data Structures and Algorithms
 - Probability and Statistics
 - Database Management
-- Software Engineering
-# 👯 I’m looking to collaborate on ...
+  
+## 👯 I’m looking to collaborate on ...
 - Anything... TCS, Machine Learning, Data Science, Cryptography whatever I can get a chance
-# 🤔 I’m looking for help with ...
+## 🤔 I’m looking for help with ...
 - Anything
-# 💬 Ask me about ...
-- I would love to collaborate with some work that involves anything interesting, especially related to Probability and Statistics
-# 📫 How to reach me: ...
-- Catch me on Linkedin (If you wish) 
-# 😄 Pronouns: ...
-# ⚡ Fun fact: ...
+## 💬 Ask me about ...
+- I would love to collaborate with some work that involves anything interesting, especially related to Probability and Statistics 
+## ⚡ Fun fact: ...
 - Sometimes I think I should give direction to films...
 
