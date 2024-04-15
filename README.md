@@ -1,7 +1,7 @@
 # I'm Sauvik
 <div style="display: flex; flex-direction: row;">
   
-  ![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d&show_icons=true)
+  
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
 </div>
 
