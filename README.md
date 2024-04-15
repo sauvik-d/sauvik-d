@@ -14,9 +14,6 @@ I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna M
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/sauvik-d)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/)
 <img alt="ViewCount" src="https://views.whatilearened.today/views/github/sauvik-d/onimur.svg" />
-## Total View Count:
-
-<img src="https://camo.githubusercontent.com/5f32e1c744a4a491979a85097b844869d923ae7eca62f23e90dff37ff063c6b6/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f76616e73686b61706f6f722f636f756e742e737667" data-canonical-src="https://profile-counter.glitch.me/sauvik-d/count.svg" style="max-width: 100%;">
 
 ## Languages and Tools:
 
