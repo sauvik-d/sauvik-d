@@ -13,13 +13,29 @@ Languages and Tools:
 
 <div style="display: flex; flex-direction: row;">
 
+  <img width="4%" src="https://raw.githubusercontent.com/abranhe/programming-languages-logos/e1be48ad2dffe3e6e0e24fdefa9e740167fb2315/src/cpp/cpp.svg" style="max-width: 100%;">
+  
   <img width="10%" src="https://camo.githubusercontent.com/06b4e5bff59158170c7de80649579da23a0fdf97fb477775f829f012cd05ef22/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6a6176612f6a6176612d617232312e737667" data-canonical-src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" style="max-width: 100%;">
 
-  <img width="10%" src="https://camo.githubusercontent.com/bbfc91d1722146450deba77bd68fc168ca346890f377fa0d77b27e906797cca5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d617232312e737667" data-canonical-src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" style="max-width: 100%;">
+  <img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" style="max-width: 100%;">
 
+  <img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" style="max-width: 100%;">
+
+  <img width="5%" src="https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg" style="max-width: 100%;">
+
+  <img width="4%" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" style="max-width: 100%;">
+  
   <img width="10%" src="https://camo.githubusercontent.com/842373051212a9c9c61fe72b9d636b2e7ed06f89120e8322ea5e67d01857cff8/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6d7973716c2f6d7973716c2d617232312e737667" data-canonical-src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" style="max-width: 100%;">
+  
+  
+  
+  
 
+  
+  
+  
 </div>
+
 
 # 😶‍🌫️ Who Am I ...
 I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College
