@@ -3,7 +3,7 @@
 ## 😶‍🌫️ Who Am I ...
 I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College
 
-<img align="right" width=600px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+<img align="right" width=400px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sauvik-d&label=Profile%20views&color=0e75b6&style=flat" alt="sauvik-d" /> </p>
 <p align="left">
