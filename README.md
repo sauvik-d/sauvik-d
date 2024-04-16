@@ -3,6 +3,12 @@
 ## 😶‍🌫️ Who Am I ...
 I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College
 
+## GitHub Stats
+
+<img align="left" width="25%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact&theme=tokyonight" /></a>
+<img width="35%" src="https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&theme=tokyonight" alt="sauvik-d" /></a>
+<img width="33%" src="https://github-readme-stats.vercel.app/api?username=sauvik-d&show_icons=true&theme=tokyonight" alt="sauvik-d"/>
+
 <img align="right" width=400px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sauvik-d&label=Profile%20views&color=0e75b6&style=flat" alt="sauvik-d" /> </p>
@@ -22,7 +28,7 @@ I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna M
   - Sometimes I think I should give direction to films...
 </p>
 
-## Catch Me on:
+## <img width="35px" src="https://github.com/RaghavK16/RaghavK16/blob/master/connected.gif"> Catch Me on:
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/sauvik-d)
 [![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/)
@@ -30,7 +36,7 @@ I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna M
 [![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat&logo=CodeChef&logoColor=white)](https://www.codechef.com/users/sauvikdutta)
 <img alt="ViewCount" src="https://views.whatilearened.today/views/github/sauvik-d/onimur.svg" />
 
-## Languages:
+## <img width="40px" src="https://github.com/RaghavK16/RaghavK16/blob/master/coderman.gif"> Languages:
 
 <div style="display: flex; flex-direction: row;">
 
@@ -46,7 +52,7 @@ I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna M
     
 </div>
 
-## Operating Systems and Tools that I am used to:
+## <img width=20px src="https://github.com/sindresorhus/sindresorhus/blob/main/cat-typing.gif"> Operating Systems and Tools that I am used to:
 
 <div style="display: flex; flex-direction: row;">
  <code><img width="8%" src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/ubuntu.svg" style="max-width: 100%;"></code>
@@ -72,11 +78,4 @@ I'm Sauvik Dutta, B.Sc. 2nd year Computer Science Major student in Ramakrishna M
  
 </div>
 
-</br>
-<div style="display: flex; flex-direction: row;">
-  
-  ![Sauvik's GitHub stats](https://github-readme-stats.vercel.app/api?username=sauvik-d&show_icons=true)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact)
-  ![GitHub Streaks](https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&layout=compact)
-  
-</div>
+<img height="120" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
