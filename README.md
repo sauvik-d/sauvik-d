@@ -1,7 +1,7 @@
 # Hi I'm Sauvik
 
 ## 😶‍🌫️ Who Am I ...
-  <div style="text-align: left;">I'm Sauvik Dutta B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College</div>
+  <div style="text-align: left;">I'm Sauvik Dutta B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College.</div>
 
 ## GitHub Stats
 
