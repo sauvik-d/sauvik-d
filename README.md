@@ -15,8 +15,7 @@
   
 - 🌱 I’m currently learning
   - Data Structures and Algorithms
-  - Probability and Statistics
-  - Database Management  
+  - Probability and Statistics 
 - 👯 I’m looking to collaborate on ...
   - Anything... TCS, Machine Learning, Data Science, Cryptography whatever I can get a chance
 - 🤔 I’m looking for help with ...
