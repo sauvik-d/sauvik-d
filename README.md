@@ -5,7 +5,7 @@
 
 ## GitHub Stats
 
-<img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact&theme=tokyonight" /></a>
+
 <img width="55.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&theme=tokyonight" alt="sauvik-d" /></a>
 
 <img align="right" width=400px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
