@@ -7,7 +7,10 @@
 
 <img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact&theme=tokyonight" /></a>
 <img width="55.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&theme=tokyonight" alt="sauvik-d" /></a>
+## GitHub Trophies
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=sauvik-d&theme=nord)](https://github.com/sauvik-d/github-profile-trophy)
+<br>
 <img align="right" width=400px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sauvik-d&label=Profile%20views&color=0e75b6&style=flat" alt="sauvik-d" /> </p>
