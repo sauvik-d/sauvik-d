@@ -1,13 +1,16 @@
 # Hi I'm Sauvik
 
 ## 😶‍🌫️ Who Am I ...
-  <div style="text-align: left;">I'm Sauvik Dutta B.Sc. 2nd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College</div>
+  <div style="text-align: left;">I'm Sauvik Dutta B.Sc. 3rd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College.</div>
 
 ## GitHub Stats
 
 <img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact&theme=tokyonight" /></a>
 <img width="55.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&theme=tokyonight" alt="sauvik-d" /></a>
+## GitHub Trophies
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=sauvik-d&theme=nord)](https://github.com/sauvik-d/github-profile-trophy)
+<br>
 <img align="right" width=400px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sauvik-d&label=Profile%20views&color=0e75b6&style=flat" alt="sauvik-d" /> </p>
@@ -15,12 +18,11 @@
   
 - 🌱 I’m currently learning
   - Data Structures and Algorithms
-  - Probability and Statistics
-  - Database Management  
+  - Probability and Statistics 
 - 👯 I’m looking to collaborate on ...
   - Anything... TCS, Machine Learning, Data Science, Cryptography whatever I can get a chance
 - 🤔 I’m looking for help with ...
-  - Anything
+  - Whenever I get stuck at anything regarding Computer Science
 - 💬 Ask me about ...
   - I would love to collaborate with some work that involves anything interesting, especially related to Probability and Statistics 
 - ⚡ Fun fact: ...
@@ -50,23 +52,6 @@
     
 </div>
 
-## <img width=20px src="https://github.com/sindresorhus/sindresorhus/blob/main/cat-typing.gif"> Operating Systems and Tools that I am used to:
-
-<div style="display: flex; flex-direction: row;">
- <code><img width="8%" src="https://raw.githubusercontent.com/gilbarbara/logos/main/logos/ubuntu.svg" style="max-width: 100%;"></code>
- <code><img width="8%" src="https://raw.githubusercontent.com/loganmarchione/homelab-svg-assets/main/assets/windows11.svg" style="max-width: 100%;"></code>
- <code><img width="8%" src="https://raw.githubusercontent.com/lukas-w/font-logos/master/vectors/garuda.svg" style="max-width: 100%;"></code>
- <code><img width="8%" src="https://raw.githubusercontent.com/materialos/icons/master/Files/Linux%20Mint.svg" style="max-width: 100%;"></code>
-</div>
-
-
-<div style="display: flex; flex-direction: row;">
- <code><img width="6%" src="https://upload.vectorlogo.zone/logos/visualstudio_code/images/a4381320-f83c-4a29-9db3-b241c1d096b1.svg" style="max-width: 100%;"></code>
- <code><img width="6%" src="https://raw.githubusercontent.com/gilbarbara/logos/52addcaa18dfecb4df77f3ee0753dca6b98187ad/logos/jetbrains.svg" style="max-width: 100%;"></code>
- <code><img width="6%" src="https://vectorwiki.com/images/NIuDX__sublime-text.svg" style="max-width: 100%;"></code>
- <code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" style="max-width: 100%;"></code>
-
-</div>
 
 ## Databases:
 
