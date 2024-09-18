@@ -23,7 +23,7 @@
   Department of Computer Science\\
   Ramakrishna Mission Vivekananda Centenary College
 }
-\date[]{August 2024}
+\date[]{September 2024}
 
 
 %\logo{\includegraphics[height=.5cm]{logo-footer.png}}
@@ -63,11 +63,11 @@
 
 
 \begin{frame}
-	\frametitle{Two-column slide}
-	\begin{examples}{AWS Services that belongs to PAAS}
+	\frametitle{PaaS of AWS}
+	\begin{examples}{AWS Services that belongs to PaaS}
 		\begin{itemize}
 			\item AWS Lambda
-			\item AWS Elastic Beanstalk
+			\item Amazon Polly
 		\end{itemize}
 	\end{examples}		
 \end{frame}
@@ -85,87 +85,96 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{AWS Lambda}
-	\begin{alertblock}{Important Note}
-		To develop any AWS service or application, creating a Lambda function is a must.
-	\end{alertblock}
+\frametitle{How AWS Lambda Works}
+\begin{block}{Working Principle}
+User uploads the code to AWS Lambda. Whenever the Lambda function is triggered, the code will run and use the computing resources then only.
+\end{block}
+
+\begin{center}
+\includegraphics[scale=0.35]{aws-LAMBDA.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{AWS Lambda Functions}
+	\begin{block}{Lambda Functions}
+		\begin{itemize}		
+			\item AWS lambda are server-less compute functions are fully managed by the AWS where developers can run there code without worrying about servers.
+			\item AWS lambda functions will allow you to run the code with out provisioning or managing servers.
+		\end{itemize}
+	\end{block}
 	
 \end{frame}
 
-\section{Second section}
-
-
 \begin{frame}
-\frametitle{Sample frame title}
-
+	\frametitle{Where to use AWS Lambda}
+	\begin{block}{}
+	\begin{itemize}
+		\vspace{1ex}
+		\item File Processing: AWS Lambda can be triggered by using S3 Service. Whenever files are added to S3 service Lambda functions will start processing the data. \vspace{1ex} 
+		\item Web Applications: AWS Lambda can be combined with web applications which will scale up and down based on the incoming traffic. \vspace{1ex}
+		\item Stream Processing: Lambda functions can be used to process real-time data streaming data. \vspace{1ex}
+	\end{itemize}
+	\end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Two-column slide}
-
+	\frametitle{Why use AWS Lambda}
+	\begin{block}{}
+	\begin{itemize}
+		\vspace{1ex}
+		\item Serverless Execution \vspace{1ex}
+		\item Pay-per-use-pricing \vspace{1ex}
+		\item Supports different programming languages \vspace{1ex}
+		\item Auto-Scaling and High Availability \vspace{1ex}
+	\end{itemize}
+	\end{block}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Two-column slide}	
+	\frametitle{Amazon Polly}
+	\begin{block}{Definition}
+	Amazon Polly is a cloud service that converts text into lifelike speech by using advanced deep learning technologies.
+	\end{block}
+	\begin{center}
+		\includegraphics[scale=0.30]{polly-social.jpg}
+	\end{center}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Two-column slide}	
+\frametitle{How Amazon Polly Works}
+	\begin{block}{Working Principle}
+		User provides text input and it processes the text using NTTS or TTS technique and returns the spoken version of the text in desired voice, language or format.
+	\end{block}
+	\begin{center}
+		\includegraphics[scale=0.29]{polly-workflow.png}\\
+	\end{center}
 \end{frame}
 
-
 \begin{frame}
-	\frametitle{Two-column slide}	
+	\frametitle{Where to use Amazon Polly}
+	\begin{block}{}
+		\begin{itemize}
+			\vspace{1ex}
+			\item Voice-Enabled Applications \vspace{1ex}
+			\item Accessibility Tools \vspace{1ex}
+			\item Media and Content Creation \vspace{1ex}
+		\end{itemize}
+	\end{block}		
 \end{frame}
 
-
 \begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
+	\frametitle{Why use AWS Elastic Beanstalk}	
+	\begin{block}{}
+		\begin{itemize}
+			\vspace{1ex}
+			\item Natural Sounding Voices \vspace{1ex}
+			\item Multiple Languages and Voices \vspace{1ex}
+			\item Real-Time Speech \vspace{1ex}
+		\end{itemize}
+	\end{block}
+	
 \end{frame}
 
 
@@ -174,199 +183,13 @@
 \end{frame}
 
 
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
+\section{Second Section}
 
 \begin{frame}
-	\frametitle{Two-column slide}	
+	\frametitle{Two-column slide}
+	
 \end{frame}
 
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
-
-\begin{frame}
-	\frametitle{Two-column slide}	
-\end{frame}
 
 
 

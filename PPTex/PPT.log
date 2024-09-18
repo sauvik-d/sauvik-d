@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.4.22)  30 AUG 2024 02:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.4.22)  17 SEP 2024 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,17 +974,36 @@ File: product-page-diagram_Lambda-HowItWorks.68a0bcacfcf46fccf04b97f16b686ea444
 f.png>
  [6
 
-] [7
+]
+File: aws-LAMBDA.png Graphic file (type bmp)
+<aws-LAMBDA.png>
 
-] (PPT.toc) [8
+Overfull \hbox (9.0224pt too wide) in paragraph at lines 97--97
+ [] 
+ []
+
+[7
+
+] [8
 
 ] [9
 
 ] [10
 
-] [11
+]
+File: polly-social.jpg Graphic file (type bmp)
+<polly-social.jpg>
+ [11
 
-] [12
+]
+File: polly-workflow.png Graphic file (type bmp)
+<polly-workflow.png>
+
+Overfull \hbox (1.13617pt too wide) in paragraph at lines 153--153
+ [] 
+ []
+
+[12
 
 ] [13
 
@@ -992,111 +1011,9 @@ f.png>
 
 ] [15
 
-] [16
+] (PPT.toc) [16
 
 ] [17
-
-] [18
-
-]
-[19
-
-] [20
-
-] [21
-
-] [22
-
-] [23
-
-] [24
-
-] [25
-
-] [26
-
-] [27
-
-] [28
-
-] [29
-
-] [30
-
-] [31
-
-] [32
-
-] [33
-
-]
-[34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
-
-] [42
-
-] [43
-
-] [44
-
-] [45
-
-] [46
-
-] [47
-
-] [48
-
-]
-[49
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-]
-[64
-
-] [65
-
-] [66
 
 ]
 \tf@nav=\write6
@@ -1113,16 +1030,23 @@ f.png>
 LaTeX2e <2023-11-01>
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `PPT.out' has not changed.
-(rerunfilecheck)             Checksum: 264D05BC3976268C217BF0F87A51D84C;358.
+
+
+Package rerunfilecheck Warning: File `PPT.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `PPT.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  5DAC6E74EDA6A6521C3F151AD219D0C5;358.
  ) 
 Here is how much of TeX's memory you used:
- 21682 strings out of 409617
- 417458 string characters out of 5774013
+ 21631 strings out of 409617
+ 418329 string characters out of 5774013
  1930177 words of memory out of 5000000
- 43335 multiletter control sequences out of 15000+600000
+ 43280 multiletter control sequences out of 15000+600000
  563162 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,123p,445b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PPT.pdf (66 pages).
+Output written on PPT.pdf (17 pages).
