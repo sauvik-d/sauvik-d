@@ -1,6 +1,6 @@
-# Hi I'm Sauvik
+![Header](assets/github-header-image(4).png)
 
-## 😶‍🌫️ Who Am I ...
+
   <div style="text-align: left;">I'm Sauvik Dutta B.Sc. 3rd year Computer Science Major student in Ramakrishna Mission Vivekananda Centenary College.</div>
 
 ## GitHub Stats
