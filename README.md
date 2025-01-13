@@ -7,24 +7,20 @@
 
 <img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact&theme=tokyonight" /></a>
 <img width="55.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&theme=tokyonight" alt="sauvik-d" /></a>
-## GitHub Trophies
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=sauvik-d&theme=nord)](https://github.com/sauvik-d/github-profile-trophy)
-<br>
-<img align="right" width=400px src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sauvik-d&label=Profile%20views&color=0e75b6&style=flat" alt="sauvik-d" /> </p>
 <p align="left">
   
 - 🌱 I’m currently learning
-  - Data Structures and Algorithms
-  - Probability and Statistics 
+  - Machine Learning
+  - Deep Learning
+  - Probability and Statistics
 - 👯 I’m looking to collaborate on ...
   - Anything... TCS, Machine Learning, Data Science, Cryptography whatever I can get a chance
 - 🤔 I’m looking for help with ...
   - Whenever I get stuck at anything regarding Computer Science
 - 💬 Ask me about ...
-  - I would love to collaborate with some work that involves anything interesting, especially related to Probability and Statistics 
+  - I would love to collaborate with some work that involves anything interesting, especially related to Probability and Statistics or any other related Mathematics
 - ⚡ Fun fact: ...
   - Sometimes I think I should give direction to films...
 </p>
@@ -36,29 +32,3 @@
 [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=flat&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sauvik_dutta)
 [![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat&logo=CodeChef&logoColor=white)](https://www.codechef.com/users/sauvikdutta)
 
-## <img width="40px" src="https://github.com/RaghavK16/RaghavK16/blob/master/coderman.gif"> Languages:
-
-<div style="display: flex; flex-direction: row;">
-
-  <img width="5%" src="https://raw.githubusercontent.com/actions/starter-workflows/main/icons/c-cpp.svg" style="max-width: 100%;">
-  
-  <img width="10%" src="https://camo.githubusercontent.com/06b4e5bff59158170c7de80649579da23a0fdf97fb477775f829f012cd05ef22/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6a6176612f6a6176612d617232312e737667" data-canonical-src="https://www.vectorlogo.zone/logos/java/java-ar21.svg" style="max-width: 100%;">
-
-  <img width="10%" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" style="max-width: 100%;">
-
-  <img width="5%" src="https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg" style="max-width: 100%;">
-
-  <!--<img width="4%" src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" style="max-width: 100%;">-->  
-    
-</div>
-
-
-## Databases:
-
-<div style="display: flex; flex-direction: row;">
- <code><img width="10%" src="https://camo.githubusercontent.com/842373051212a9c9c61fe72b9d636b2e7ed06f89120e8322ea5e67d01857cff8/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6d7973716c2f6d7973716c2d617232312e737667" data-canonical-src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" style="max-width: 100%;"></code>
- <code><img width="10%" src="https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg" style="max-width: 100%;"></code>
- 
-</div>
-
-<img height="120" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
