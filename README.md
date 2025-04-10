@@ -8,22 +8,10 @@
 <img align="left" width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sauvik-d&layout=compact&theme=tokyonight" /></a>
 <img width="55.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=sauvik-d&theme=tokyonight" alt="sauvik-d" /></a>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sauvik-d&label=Profile%20views&color=0e75b6&style=flat" alt="sauvik-d" /> </p>
-<p align="left">
-  
-- 🌱 I’m currently learning
-  - Machine Learning
-  - Deep Learning
-  - Probability and Statistics
-- 👯 I’m looking to collaborate on ...
-  - Anything... TCS, Machine Learning, Data Science, Cryptography whatever I can get a chance
-- 🤔 I’m looking for help with ...
-  - Whenever I get stuck at anything regarding Computer Science
-- 💬 Ask me about ...
-  - I would love to collaborate with some work that involves anything interesting, especially related to Probability and Statistics or any other related Mathematics
-- ⚡ Fun fact: ...
-  - Sometimes I think I should give direction to films...
-</p>
+
+
+<br>
+
 
 ## <img width="35px" src="https://github.com/RaghavK16/RaghavK16/blob/master/connected.gif"> Catch Me on:
 
